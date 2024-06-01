@@ -5,6 +5,6 @@ import lombok.Getter;
 
 @Builder
 @Getter
-public class CommentRequestDto {
-    private String content;
+public class CommentDeleteRequestDto {
+    private Long id;
 }
