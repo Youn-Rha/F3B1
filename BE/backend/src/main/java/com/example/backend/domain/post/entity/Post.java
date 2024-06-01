@@ -4,10 +4,7 @@ import com.example.backend.domain.comment.entity.Comment;
 import com.example.backend.domain.post.dto.PostRequestDto;
 import com.example.backend.domain.post.dto.PostUpdateRequestDto;
 import com.example.backend.global.BaseEntity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +12,7 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Entity
 @NoArgsConstructor
 @Getter
 public class Post extends BaseEntity {
