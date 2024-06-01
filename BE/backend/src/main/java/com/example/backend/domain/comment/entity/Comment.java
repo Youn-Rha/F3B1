@@ -16,6 +16,9 @@ public class Comment extends BaseEntity {
     @JoinColumn(name = "post_id")
     private Post post;
 
+
+
+
     @Builder
     public Comment(String content, Post post) {
         this.content = content;

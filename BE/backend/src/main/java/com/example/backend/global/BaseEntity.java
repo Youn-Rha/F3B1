@@ -2,6 +2,7 @@ package com.example.backend.global;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
+import lombok.Getter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 
 @Configuration
 @MappedSuperclass
+@Getter
 @EntityListeners(AuditingEntityListener.class)
 public class BaseEntity {
     @CreatedDate
