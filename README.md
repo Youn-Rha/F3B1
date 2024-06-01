@@ -26,5 +26,8 @@
 3. 게시글 작성 page
 <img width="1357" alt="image" src="https://github.com/Youn-Rha/F3B1/assets/107935469/1b6279ba-e92e-4d7b-b5a0-56ae01188a08">
 
+### API
+![image](https://github.com/Youn-Rha/F3B1/assets/107935469/767ad6ff-6dfc-4054-ab2e-5d14de48bcb7)
+
 
 
